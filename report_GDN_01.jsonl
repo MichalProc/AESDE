@@ -1,0 +1,67 @@
+{"timestamp": "2026-06-13T18:57:55.617247+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T19:12:56.557531+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T19:27:57.568310+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T19:42:58.552233+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-13T19:57:59.577554+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-13T20:13:00.423022+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T20:28:01.555132+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T20:43:02.331571+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-13T20:58:03.374957+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-13T21:13:04.420223+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"type": "cumulative_summary", "timestamp": "2026-06-13T23:13:05.418615", "total_analyzed_from_start": 20, "total_errors_from_start": 9}
+{"timestamp": "2026-06-13T21:28:05.344733+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T21:43:06.331544+00:00", "status": "blad", "quality_score_percent": 71.42857142857143}
+{"timestamp": "2026-06-13T21:58:07.309788+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T22:13:08.303825+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-13T22:28:09.220542+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T22:43:09.910800+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T22:58:10.831350+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T23:13:11.780471+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T23:28:12.720580+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-13T23:43:13.668431+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"type": "cumulative_summary", "timestamp": "2026-06-14T01:43:14.624748", "total_analyzed_from_start": 30, "total_errors_from_start": 12}
+{"timestamp": "2026-06-13T23:58:14.638171+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T00:13:15.597005+00:00", "status": "blad", "quality_score_percent": 71.42857142857143}
+{"timestamp": "2026-06-14T00:28:16.764667+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T00:43:17.752613+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T00:58:18.689655+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T01:13:19.659428+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T01:28:20.667769+00:00", "status": "blad", "quality_score_percent": 71.42857142857143}
+{"timestamp": "2026-06-14T01:43:21.820186+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T01:58:22.806710+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T02:13:23.808130+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"type": "cumulative_summary", "timestamp": "2026-06-14T04:13:24.725164", "total_analyzed_from_start": 40, "total_errors_from_start": 18}
+{"timestamp": "2026-06-14T02:28:24.730857+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T02:43:25.676764+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T02:58:26.650360+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T03:13:27.617806+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T03:28:28.278072+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T03:43:29.240464+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T03:58:30.162690+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T04:13:31.102066+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T04:28:32.039563+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T04:43:32.966958+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"type": "cumulative_summary", "timestamp": "2026-06-14T06:43:33.846394", "total_analyzed_from_start": 50, "total_errors_from_start": 22}
+{"timestamp": "2026-06-14T04:58:33.921577+00:00", "status": "blad", "quality_score_percent": 71.42857142857143}
+{"timestamp": "2026-06-14T05:13:34.906031+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T05:28:35.840815+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T05:43:36.769355+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T05:58:37.687675+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T06:13:38.755381+00:00", "status": "blad", "quality_score_percent": 71.42857142857143}
+{"timestamp": "2026-06-14T06:28:39.742462+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T06:43:40.667069+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T06:58:41.593324+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T07:13:42.546960+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"type": "cumulative_summary", "timestamp": "2026-06-14T09:13:43.382112", "total_analyzed_from_start": 60, "total_errors_from_start": 28}
+{"timestamp": "2026-06-14T07:28:43.483336+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T07:43:44.441352+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T07:58:45.393944+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T08:13:46.325882+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T08:28:47.251330+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T08:43:48.252229+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T08:58:49.225967+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T09:13:50.173730+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"timestamp": "2026-06-14T09:28:51.292828+00:00", "status": "blad", "quality_score_percent": 85.71428571428571}
+{"timestamp": "2026-06-14T09:43:52.243830+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
+{"type": "cumulative_summary", "timestamp": "2026-06-14T11:43:53.033853", "total_analyzed_from_start": 70, "total_errors_from_start": 31}
+{"timestamp": "2026-06-14T09:58:53.201590+00:00", "status": "rekord poprawny", "quality_score_percent": 100.0}
