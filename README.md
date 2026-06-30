@@ -167,6 +167,22 @@ Na 70 przeanalizowanych rekordów, system oflagował problemy z jakością danyc
 
 Zdecydowanie najczęściej obserwowanym zjawiskiem były gwałtowne skoki ciśnienia (powyżej 15 hPa na kwadrans), co obniżało *Quality Score* pojedynczego pomiaru do poziomu 85,7%. Nierzadko towarzyszyły temu równie drastyczne skoki w zmierzonej wilgotności. Połączone błędy powodowały że ostateczny wynik wiarygodności takiego pomiaru wynosił 71,4%.
 
+Aby lepiej zobrazować charakter tego problemu, na Rysunku 1 i 2 przedstawiono wycinek
+surowych danych reprezentujący 10 kolejnych odczytów ciśnienia i wilgotności. Wyraźnie widać na nim
+drastyczne wahania, fizycznie niemożliwe w tak krótkim czasie.
+
+<img width="762" height="407" alt="image" src="https://github.com/user-attachments/assets/d0b039a3-2d70-4878-a331-e8fecd887b11" />
+
+Rysunek 1: Wykres zmienności ciśnienia na podstawie pierwszych 10 odczytów z surowych
+danych. Widoczne są gwałtowne załamania (np. nagły spadek z 1024.0 do 1003.7 hPa)
+
+<img width="787" height="380" alt="image" src="https://github.com/user-attachments/assets/6eebcaed-2e62-43df-b9e7-665a9fb73b26" />
+
+Rysunek 2: Wykres zmienności wilgotności na podstawie pierwszych 10 odczytów z suro
+wych danych. Wyraźnie widoczne są nienaturalne skoki wartości przekraczające dozwolony
+próg 30% (np. nagły spadek z 76,7% do 45,7% w czwartym pomiarze oraz wzrost z 58,1%
+do 93,1% w ósmym pomiarze), które zostały prawidłowo oflagowane przez system.
+
 Ze względu na stabilność pogody w okresie testowania system nie wyłapał żadnych innych błędów, jednak podczas testowania działania programu pod względem wszystkich komunikatów za pomocą spreparowanych pomiarów stwierdzono poprawność wszystkich mechanizmów walidacji programu. 
 
 ### Zestawienie Ilościowe Zdiagnozowanych Błędów
@@ -182,6 +198,8 @@ Zebrane błędy podzielono na dwa występujące rodzaje. Znacząca liczba błęd
 Aby zilustrować częstotliwość występowania błędnych odczytów, przygotowano poniższe zestawienie. Ukazuje ono skumulowaną sumę flagowanych przez system anomalii w zestawieniu z ogólną liczbą zebranych pakietów (dane z zapisów `report_GDN_01.jsonl`).
 
 <img width="668" height="427" alt="image" src="https://github.com/user-attachments/assets/31ee2ced-e33e-4672-bf94-bfd2763ddfb0" />
+
+Rysunek 3: Wykres liniowy obrazujący przyrost błędnych odczytów.
 
 ## Podsumowanie
 Opracowany potok danych z powodzeniem realizuje zadanie separacji wiarygodnych pomiarów od odczytów zniekształconych. Zgromadzone przez system statystyki jednoznacznie wykazują, że znaczny udział usterek sprzętowych (stanowiących niemal połowę flagowanych odczytów pod koniec nocnej sesji) potwierdza absolutną konieczność stosowania mechanizmów kwarantanny. Przekazanie nieoczyszczonych danych bezpośrednio do systemów uczenia maszynowego lub narzędzi analitycznych drastycznie obniżyłoby wiarygodność wyników końcowych, przed czym wdrożone rozwiązanie skutecznie i w pełni automatycznie chroni.
