@@ -181,13 +181,7 @@ Zebrane błędy podzielono na dwa występujące rodzaje. Znacząca liczba błęd
 ### Dynamika Przyrostu Błędów
 Aby zilustrować częstotliwość występowania błędnych odczytów, przygotowano poniższe zestawienie. Ukazuje ono skumulowaną sumę flagowanych przez system anomalii w zestawieniu z ogólną liczbą zebranych pakietów (dane z zapisów `report_GDN_01.jsonl`).
 
-> **Wzrost liczby anomalii pomiarowych na stacji GDN_01:**
-> * 20 pobranych odczytów API ➡️ 9 błędów sprzętowych
-> * 30 pobranych odczytów API ➡️ 12 błędów sprzętowych
-> * 40 pobranych odczytów API ➡️ 18 błędów sprzętowych
-> * 50 pobranych odczytów API ➡️ 22 błędy sprzętowe
-> * 60 pobranych odczytów API ➡️ 28 błędów sprzętowych
-> * 70 pobranych odczytów API ➡️ 31 błędów sprzętowych
+<img width="668" height="427" alt="image" src="https://github.com/user-attachments/assets/31ee2ced-e33e-4672-bf94-bfd2763ddfb0" />
 
 ## Podsumowanie
 Opracowany potok danych z powodzeniem realizuje zadanie separacji wiarygodnych pomiarów od odczytów zniekształconych. Zgromadzone przez system statystyki jednoznacznie wykazują, że znaczny udział usterek sprzętowych (stanowiących niemal połowę flagowanych odczytów pod koniec nocnej sesji) potwierdza absolutną konieczność stosowania mechanizmów kwarantanny. Przekazanie nieoczyszczonych danych bezpośrednio do systemów uczenia maszynowego lub narzędzi analitycznych drastycznie obniżyłoby wiarygodność wyników końcowych, przed czym wdrożone rozwiązanie skutecznie i w pełni automatycznie chroni.
